@@ -1,1 +1,1 @@
-web: gunicorn testing: server
+web: voila --port=$PORT --no-browser testing.ipynb
